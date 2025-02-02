@@ -5,42 +5,37 @@ This repository contains the implementation for Speech Understanding Programming
 
 --- 
 
-Q1: Emotion Recognition using Wav2Vec2 and PyTorch.
-Q2 Task A: Spectrogram Analysis with Windowing Techniques (Hann, Hamming, Rectangular) using the UrbanSound8K dataset.
-Q2 Task B: Music Genre Spectrogram Comparison analyzing spectrogram differences across Metal, Rock, Pop, and EDM.
-
 ### **Q1: Emotion Recognition Using Wav2Vec2**
 
 **Task Description:**
  - The goal of this task is to perform Emotion Recognition using the RAVDESS dataset and a Wav2Vec2 pre-trained model. This model processes audio speech signals and classifies emotions.
 
-Dataset Used:
-RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+**Dataset Used:**
+ - RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+ - Downloaded and extracted using Python.
 
-Downloaded and extracted using Python.
+**Model & Training Details:**
+ - Model Used: Wav2Vec2 (pre-trained on emotion recognition)
 
-Model & Training Details:
-Model Used: Wav2Vec2 (pre-trained on emotion recognition)
+**Preprocessing:**
+ - Convert audio to mono
+ - Resample to 16kHz
+ - Extract features using Wav2Vec2 processor
 
-Preprocessing:
-Convert audio to mono
-Resample to 16kHz
-Extract features using Wav2Vec2 processor
+**Training:**
+ - Optimizer: SGD (learning rate = 1e-3, momentum = 0.9)
+ - Loss Function: Categorical Crossentropy
+ - 30 epochs
+ - GPU-accelerated training
 
-Training:
-Optimizer: SGD (learning rate = 1e-3, momentum = 0.9)
-Loss Function: Categorical Crossentropy
-30 epochs
-GPU-accelerated training
+**Results:**
+ - Final Test Accuracy: 76.7%
 
-Results:
-Final Test Accuracy: 76.7%
+**Classification Report:**
+ - Precision: Varies across emotions (highest for Angry & Disgust)
+ - Recall: Higher for Neutral & Surprised emotions
 
-Classification Report:
-Precision: Varies across emotions (highest for Angry & Disgust)
-Recall: Higher for Neutral & Surprised emotions
-
-Q2 Task A: Spectrogram Analysis with Different Windowing Techniques
+### **Q2 Task A: Spectrogram Analysis with Different Windowing Techniques**
 
 Task Description
 
