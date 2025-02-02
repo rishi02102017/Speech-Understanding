@@ -1,0 +1,13 @@
+torch
+torchaudio
+transformers
+librosa
+numpy
+matplotlib
+seaborn
+pandas
+scipy
+scikit-learn
+requests
+shutil
+
