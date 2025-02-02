@@ -1,6 +1,6 @@
 # **Speech Understanding Programming Assignment - 1**
 
-**Overview**
+##**Overview**
 This repository contains the implementation for Speech Understanding Programming Assignment - 1, covering the following tasks:
 
 --- 
@@ -9,19 +9,7 @@ Q1: Emotion Recognition using Wav2Vec2 and PyTorch.
 Q2 Task A: Spectrogram Analysis with Windowing Techniques (Hann, Hamming, Rectangular) using the UrbanSound8K dataset.
 Q2 Task B: Music Genre Spectrogram Comparison analyzing spectrogram differences across Metal, Rock, Pop, and EDM.
 
-##**Repository Structure**
-
-SpeechUnderstanding_PA1/
-│-- code/                      # Contains ipynb files scripts for different tasks
-│   │-- Speech_Assignment1_Q1.ipynb
-│   │-- Speech_Assignment1_Q2_TaskA.ipynb
-│   │-- Speech_Assignment1_Q2_TaskB.ipynb
-│-- songs/                     # Songs used for Task B analysis
-│-- report.pdf                 # Final report covering methodology, results, and analysis
-│-- README.md                  # This file (Project documentation)
-│-- requirements.txt            # List of dependencies for easy installation
-
-###**Q1: Emotion Recognition Using Wav2Vec2**
+### **Q1: Emotion Recognition Using Wav2Vec2**
 
 **Task Description:**
  - The goal of this task is to perform Emotion Recognition using the RAVDESS dataset and a Wav2Vec2 pre-trained model. This model processes audio speech signals and classifies emotions.
