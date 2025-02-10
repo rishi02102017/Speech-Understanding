@@ -87,7 +87,7 @@ This repository contains the implementation for Speech Understanding Programming
 
 ### **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/SpeechUnderstanding_PA1.git
+git clone https://github.com/rishi02102017/SpeechUnderstanding_PA1.git
 cd SpeechUnderstanding_PA1
 ```
 ### **Step 2: Install Dependencies**
