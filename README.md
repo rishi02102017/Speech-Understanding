@@ -110,6 +110,6 @@ pip install -r requirements.txt
 
  - Jyotishman Das (M24CSA013)
  - Course: Speech Understanding
- - Institution: Indian Institute of Technology
+ - Institution: Indian Institute of Technology Jodhpur
 
 
