@@ -65,7 +65,6 @@ This repository contains the implementation for Speech Understanding Programming
  - Select 4 songs from 4 different genres and generate spectrograms for each song.
  - Compare frequency distribution, energy levels, and structure.
 
-**Genres & Songs Used:**
 ### **Genres & Songs Used**
 | Genre  | Song |
 |--------|--------------------------------------------------|
